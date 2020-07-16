@@ -1,0 +1,15 @@
+
+@extends('front.layouts.master')
+@section('title',$page->title)
+@section('bg',$page->image)
+@section('contents')
+
+<div class="col-lg-8 col-md-10 mx-auto">
+       {!! $page->contents !!}
+    </div>
+@endsection
+
+
+
+
+
